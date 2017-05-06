@@ -5,4 +5,4 @@ RUN npm install -d --production
 EXPOSE 80
 ENV PORT 80
 ENV DOCKER true
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
